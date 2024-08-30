@@ -1,0 +1,17 @@
+ul{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    color: brown;
+   
+}
+ul li{
+    background-color: chartreuse;
+    padding: 3px 16px;
+    transition: 0.4s;
+}
+ul li:hover{
+    background-color: aqua;
+    transition: 0.4s ease-in-out;
+    color: black;
+}
